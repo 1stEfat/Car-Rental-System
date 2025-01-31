@@ -1,0 +1,129 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between the image and form */
+    padding: 20px;
+}
+.image-section h1 {
+    text-align: center;
+    color: #0E4D8C;
+    margin-left: 40px;
+}
+
+.image-section img {
+    width: 50%; 
+    height: 85vh; 
+    object-fit:fill;
+    flex-shrink: 0;
+}
+
+ #img1 {
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 40px;
+} 
+
+.form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: auto; 
+    margin-top: 0px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    float: right;
+    height: 75vh;
+    gap: 25px;
+    
+}
+
+.form h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #0E4D8C;
+    font-size: 35px;
+}
+.form label {
+    width: 100%;
+    color: #555; 
+    font-weight: bold;
+}
+
+.name-section, .email-password-section {
+    display: flex;
+    gap: 20px;
+}
+
+.name-field, .email-field, .password-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field label, .email-field label, .password-field label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.name-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.form button {
+    width: 100%;
+    background-color: #0E4D8C;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 10px;
+    font-size: larger;
+    height: 45px;
+}
+
+.form button:hover {
+    background-color: #128f76;
+}
+
+#login h2 {
+    margin-top: 50px;
+}
+
+.link {
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: #0E4D8C;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.link a:hover {
+    color: #128f76;
+}
